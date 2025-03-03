@@ -120,8 +120,12 @@
       display: flex;
       text-align: center;
       align-items: center;   
+      justify-content: center;
       border: none;
-      width: 100vw;
+   
+    }
+    .space h1{
+        margin-left: 0px;
     }
     .hero2{
       width: 100vw;

@@ -7,6 +7,8 @@ import Foot from './components/Foot';
 import Accessories from './components/Accessories';
 import Support from './components/Support';
 import Login from './components/Login';
+import CreateAccount from './components/CreateAccount';
+import ForgotAccount from './components/ForgotAccount';
 
 function App() {
   return (
@@ -20,7 +22,8 @@ function App() {
         <Route path="/accessories" element={<Accessories />} />
         <Route path="/support" element={<Support />} />
         <Route path="/login" element={<Login />} />
-       
+        <Route path="/signup" element={<CreateAccount/>} />
+        <Route path="/forgot-password" element={<ForgotAccount/>} />
       </Routes>
       <Foot/>
     </Router>
