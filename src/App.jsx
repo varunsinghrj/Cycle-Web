@@ -18,6 +18,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />
+        <Route path="/*" element={<Hero />} />
         <Route path="/ebike" element={<Ebike />} />
         <Route path="/accessories" element={<Accessories />} />
         <Route path="/support" element={<Support />} />
