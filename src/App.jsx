@@ -9,6 +9,7 @@ import Support from './components/Support';
 import Login from './components/Login';
 import CreateAccount from './components/CreateAccount';
 import ForgotAccount from './components/ForgotAccount';
+import PageNotFound from './components/PageNotFound';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />
-        <Route path="/*" element={<Hero />} />
+        <Route path="*" element={<PageNotFound />} />
         <Route path="/ebike" element={<Ebike />} />
         <Route path="/accessories" element={<Accessories />} />
         <Route path="/support" element={<Support />} />
